@@ -51,7 +51,33 @@ This project demonstrates a **CI/CD pipeline using GitHub Actions** for a simple
       │  → Deploy to Production │
       └─────────────────────────┘
 ```
+## Setup Steps
+1. **Create and Clone the Repository**
+2. **Create a Branch**
+   ```bash
+   git checkout -b staging
+   ```
+3. **Push to Remote**
+   ```bash
+   git push origin staging
+   ```
 
+4. **Install Dependencies (Optional for Local Testing)**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Run Locally (Optional)**
+   ```bash
+   python app/app.py
+   ```
+6. **Trigger GitHub Actions**
+   
+   - Trigger GitHub Actions
+   - Or create a tag like v1.0.1 to trigger a release build
+
+
+## ScreenShots
 
 | Description                      | Screenshot                  |
 |-----------------------------------|-----------------------------|
