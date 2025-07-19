@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Staging
-        run: echo "🚀 Deploying to STAGING..."
+        run: echo "Deploying to STAGING..."
 
   deploy-production:
     if: startsWith(github.ref, 'refs/tags/')
@@ -42,4 +42,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Production
-        run: echo "🚀 Deploying to PRODUCTION..."
+        run: echo "Deploying to PRODUCTION..."
